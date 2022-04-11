@@ -1,0 +1,233 @@
+*{
+    padding:0 auto;
+}
+
+
+.first{
+    height:10vh;
+    width:10vw ;
+    background-color:rgb(81, 81, 214);
+animation-name:first;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+
+
+}
+@keyframes first{
+from{background-color:rgb(81, 81, 214);
+}
+to{background-color:rgb(19, 151, 85);
+}
+}
+.sec{
+    margin-top: 5px;
+    height:10vh;
+    width:10vw ;
+    background-color:rgb(52, 52, 163);
+animation-name:sec;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes sec{
+    0%{}
+    25%{background-color: green;}
+    50%{ background-color: yellow;}
+    100%{background-color: red;}
+
+}
+
+.tmo1{
+    animation: tmo1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes tmo1{
+    from{filter: opacity(100%);}
+    to{filter: opacity(0);}
+}
+.tmo2{
+    animation: tmo2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes tmo2{
+    from{filter:hue-rotate(200deg);}
+    to{filter:hue-rotate(0)}
+}
+.tmo3{
+    animation: tmo3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes tmo3{
+    from{filter:grayscale(0);}
+    to{filter:grayscale(100%)}
+}
+.div1{
+    height:10vh;
+    width:10vw ;
+    background-color:rgb(220, 106, 30);
+animation-name:div1;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-direction:alternate;
+}
+@keyframes div1{
+
+100%{transform: translateX(100%);background-color: palevioletred;
+}
+}
+.div2{
+    height:10vh;
+    width:10vw ;
+    background-color:rgb(220, 106, 30);
+animation-name:div2;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-direction:alternate;
+}
+@keyframes div2{
+20%{background-color: red;}
+50%{background-color: rgb(55, 183, 23);}
+75%{background-color: rgb(222, 222, 31);}
+100%{transform: translatey(100%);background-color: rgb(70, 159, 233);
+}
+}
+.tmo4{
+    margin-top: 10vh;
+    animation: tmo4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes tmo4{
+from{filter: drop-shadow(5px 7px 8px #333);}
+to{filter: drop-shadow(5px 7px 8px rgb(157, 223, 13));filter: blur(50%);}
+}
+.tmo5{
+    margin-top: 10vh;
+    animation: tmo5;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+animation-direction:alternate-reverse;
+}
+@keyframes tmo5{
+    20%{filter: blur(1px);}
+    50%{filter: blur(2px);}
+    75%{filter: blur(3px);}
+    100%{filter: blur(4px);}
+
+}
+.tmo6{
+    margin-top: 10vh;
+    display: inline-block;
+    filter: blur(3px);
+
+}
+.tmo6:hover{
+    animation: tmo6;
+    animation-duration: 5s;
+animation-direction:alternate-reverse;
+    }
+
+@keyframes tmo6{
+    0%{filter: blur(0)
+        drop-shadow(4px 4px 5px #333);
+        transform: scale(1.1);
+    
+    }
+    20%{filter: blur(1px)
+        drop-shadow(4px 4px 5px rgb(227, 49, 49));
+
+    }
+    75%{filter: blur(2px)
+        drop-shadow(4px 4px 5px rgb(30, 212, 33));
+
+    }
+    100%{filter: blur(3px)
+        drop-shadow(4px 4px 5px rgb(78, 8, 124));
+
+    }
+}
+.div3{height:10vh;
+    width:10vw ;
+    background-color:rgb(220, 106, 30);
+    animation: div3;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+
+}
+@keyframes div3{
+    from{
+        width :10vh;
+    }
+    to{
+        width :20vh;
+    }
+
+}
+.div4{height:10vh;
+    width:10vw ;
+    background-color:rgb(17, 175, 144);
+    animation: div4;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+
+
+}
+@keyframes div4{
+25%{width: 10px;}
+50%{width: 70px;}
+75%{width: 30px;}
+100%{width: 200px;}
+
+
+
+
+}
+.tmo7{
+    margin-top: 10vh;
+    animation: tmo7;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+animation-direction:alternate-reverse;
+}
+@keyframes tmo7{
+   from{filter: brightness(100%);}
+to{filter: brightness(0);}
+}
+.tmo8{
+    display: inline-block;
+    margin-top: 10vh;
+    animation: tmo8;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+animation-direction:alternate-reverse;
+}
+@keyframes tmo8{
+   from{transform: scale(0);}
+   from{transform: scale(1.5);}
+}
+.tmo9{
+    display: inline-block;
+    margin-top: 10vh;
+    animation: tmo9;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+animation-direction:alternate-reverse;
+}
+@keyframes tmo8{
+   from{filter: blur(3px) grayscale(100%);}
+   from{transform: scale(1.5);}
+}
+
+
+
