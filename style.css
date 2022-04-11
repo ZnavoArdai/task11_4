@@ -1,6 +1,9 @@
 *{
     padding:0 auto;
 }
+body{
+    height: 100%;
+}
 
 
 .first{
@@ -217,17 +220,58 @@ animation-direction:alternate-reverse;
    from{transform: scale(1.5);}
 }
 .tmo9{
-    display: inline-block;
     margin-top: 10vh;
     animation: tmo9;
     animation-duration: 5s;
     animation-iteration-count: infinite;
 animation-direction:alternate-reverse;
 }
-@keyframes tmo8{
-   from{filter: blur(3px) grayscale(100%);}
-   from{transform: scale(1.5);}
+@keyframes tmo9{
+   from{filter: blur(3px) grayscale(1005);}
+   to{filter: blur(0) grayscale(0);}
 }
 
 
 
+.div5{
+    height: 10vh;
+    width: 10vw;
+    background-color: blueviolet;
+    animation: div5;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    transform: translate(50vh);
+
+}
+
+@keyframes div5{
+    from{
+        transform: scale(50vh);
+
+    }
+    to{transform: translate(0);}
+}
+
+.div6{
+    height: 10vh;
+    width: 4vw;
+    border: 8px solid greenyellow;
+    border-radius: 50%;
+    animation: div6;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    transform: translateY(50vh) scale(0.5);
+    
+
+}
+
+@keyframes div6{
+    
+100%{
+    transform: translateY(0) scale(1);
+    
+
+}
+}
